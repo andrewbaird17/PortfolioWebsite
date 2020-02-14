@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+  }
+
+.tab 
+{
+    margin-left: 2.5em
+}
+
+.aboutmeheader
+{
+    color: black;
+    text-align: center;
+    padding: 8px 12px;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.centerimage
+{
+    position: center;
+}
+
+.aboutmetext
+{
+    color: black;
+    font-size: large;
+}
+
+.projecttext
+{
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+.homepageheader
+{
+    font-size: 125%;
+    text-align: center;
+}
+
+.backgroundimage
+{
+    background-image: url(milwaukee-skyline-black-and-white-bekim-art.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.projectheader
+{
+    color: black;
+    text-align: center;
+    padding: 8px 12px;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.contactmeheader
+{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    padding: 8px 12px;
+    font-size: 150%;
+}
+
+
+.navbar 
+{
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+}
+  
+  /* Navigation links */
+.navbar a 
+{
+    float: left;
+    padding: 12px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    width: 25%; 
+    text-align: center; 
+}
+  
+.navbar a:hover 
+{
+    background-color: #000;
+    color: white;
+}
+  
+.navbar a.active 
+{
+    background-color: green;
+}
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+ @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+}
+}
+
+
+.main 
+{
+    margin-top: 45px; 
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+body
+{
+    background-color: white;
+}
+
+.flex-container
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25 px;
+}
+
+.aboutmetextbox
+{
+    padding: 25 px;
+}
+  
+  /* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+.side {
+    flex: 50%; 
+    padding: 25px; 
+  }
+  
+  /* Main column */
+.mainaboutme 
+{
+    flex: 50%; 
+    padding: 25px; 
+}
+
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h3
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+}
