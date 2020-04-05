@@ -70,8 +70,8 @@
 .navbar 
 {
     width: 100%;
-    background-color: white;
-    overflow: auto;
+    background-color: #d5f4e6;
+    overflow: hidden;
     position: fixed;
     top: 0;
 }
@@ -80,12 +80,11 @@
 .navbar a 
 {
     float: left;
-    padding: 12px;
+    padding: 12px 14px;
     color: black;
     display: block;
     text-decoration: none;
-    font-size: 25px;
-    width: 25%; 
+    font-size: 20px;
     text-align: center; 
 }
   
@@ -93,11 +92,6 @@
 {
     background-color: #000;
     color: white;
-}
-  
-.navbar a.active 
-{
-    background-color: green;
 }
   
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
@@ -120,7 +114,7 @@
 
 body
 {
-    background-color: white;
+    background-color: #d5f4e6;
 }
 
 .flex-container
