@@ -1,168 +1,153 @@
 * {
-    box-sizing: border-box;
-  }
-
-.tab 
-{
-    margin-left: 2.5em
+	box-sizing: border-box;
 }
 
-.aboutmeheader
-{
-    color: black;
-    text-align: center;
-    padding: 8px 12px;
-    font-weight: bolder;
-    font-size: 150%;
+.tab {
+	margin-left: 2.5em;
 }
 
-.centerimage
-{
-    position: center;
+.aboutmeheader {
+	color: black;
+	text-align: center;
+	padding: 8px 12px;
+	font-weight: bolder;
+	font-size: 150%;
 }
 
-.aboutmetext
-{
-    color: black;
-    font-size: large;
+.centerimage {
+	position: center;
 }
 
-.projecttext
-{
-    color: black;
-    text-align: center;
-    font-size: large;
+.aboutmetext {
+	color: black;
+	font-size: large;
 }
 
-.homepageheader
-{
-    font-size: 125%;
-    text-align: center;
+.projecttext {
+	color: black;
+	text-align: center;
+	font-size: large;
 }
 
-.backgroundimage
-{
-    background-image: url(milwaukee-skyline-black-and-white-bekim-art.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+.homepageheader {
+	font-size: 125%;
+	text-align: center;
 }
 
-.projectheader
-{
-    color: black;
-    text-align: center;
-    padding: 8px 12px;
-    font-weight: bolder;
-    font-size: 150%;
+.backgroundimage {
+	background-image: url(milwaukee-skyline-black-and-white-bekim-art.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
-.contactmeheader
-{
-    color: black;
-    text-align: center;
-    font-weight: bolder;
-    padding: 8px 12px;
-    font-size: 150%;
+.projectheader {
+	color: black;
+	text-align: center;
+	padding: 8px 12px;
+	font-weight: bolder;
+	font-size: 150%;
 }
 
-
-.navbar 
-{
-    width: 100%;
-    background-color: #d5f4e6;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-}
-  
-  /* Navigation links */
-.navbar a 
-{
-    float: left;
-    padding: 12px 14px;
-    color: black;
-    display: block;
-    text-decoration: none;
-    font-size: 20px;
-    text-align: center; 
-}
-  
-.navbar a:hover 
-{
-    background-color: #000;
-    color: white;
-}
-  
-  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
- @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-      width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
-}
+.contactmeheader {
+	color: black;
+	text-align: center;
+	font-weight: bolder;
+	padding: 8px 12px;
+	font-size: 150%;
 }
 
-
-.main 
-{
-    margin-top: 45px; 
-    margin-left: 25px;
-    margin-right: 25px;
+.navbar {
+	width: 100%;
+	background-color: #d5f4e6;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
 }
 
-body
-{
-    background-color: #d5f4e6;
+/* Navigation links */
+.navbar a {
+	float: left;
+	padding: 12px 14px;
+	color: black;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
 }
 
-.flex-container
-{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 25 px;
+.navbar a:hover {
+	background-color: #000;
+	color: white;
 }
 
-.aboutmetextbox
-{
-    padding: 25 px;
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: left; /* If you want the text to be left-aligned on small screens */
+	}
 }
-  
-  /* Column container */
+
+.main {
+	margin-top: 45px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+body {
+	background-color: #d5f4e6;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 25 px;
+}
+
+.aboutmetextbox {
+	padding: 25 px;
+}
+
+/* Column container */
 .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
 .side {
-    flex: 50%; 
-    padding: 25px; 
-  }
-  
-  /* Main column */
-.mainaboutme 
-{
-    flex: 50%; 
-    padding: 25px; 
+	flex: 50%;
+	padding: 25px;
 }
 
-h1
-{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+/* Main column */
+.mainaboutme {
+	flex: 50%;
+	padding: 25px;
 }
 
-h3
-{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
 }
 
-h4{
-    font-family: 'Times New Roman', Times, serif;
+h3 {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.link {
+	font-size: 20px;
+	color: darkred;
 }
